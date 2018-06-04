@@ -19,3 +19,14 @@ C:\Users\Liam\Desktop\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.csproj.Gener
 C:\Users\Liam\Desktop\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.csproj.CoreCompileInputs.cache
 C:\Users\Liam\Desktop\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.exe
 C:\Users\Liam\Desktop\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.pdb
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\bin\Debug\WinFormsTut.exe.config
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\bin\Debug\WinFormsTut.exe
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\bin\Debug\WinFormsTut.pdb
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.csprojAssemblyReference.cache
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.Form1.resources
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.Properties.Resources.resources
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.TextWindow.resources
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.csproj.GenerateResource.cache
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.csproj.CoreCompileInputs.cache
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.exe
+C:\Users\Liam\Desktop\Winforms\WinFormsTut\WinFormsTut\obj\Debug\WinFormsTut.pdb

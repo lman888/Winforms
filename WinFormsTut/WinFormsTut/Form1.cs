@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 //Winforms is a eventbased graphic handler
 //need to set isMDIcontainer so it may hold other windows
@@ -131,6 +132,28 @@ namespace WinFormsTut
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                label1.Text = openFileDialog1.FileName;
+                textBox1.Text = File.ReadAllText(label1.Text);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                File.WriteAllText(saveFileDialog1.FileName, textBox1.Text);
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

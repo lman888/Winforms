@@ -36,6 +36,10 @@
             this.item1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.item2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.button2 = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.button3 = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +63,7 @@
             this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Click The Button!";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -95,14 +100,14 @@
             // item1ToolStripMenuItem
             // 
             this.item1ToolStripMenuItem.Name = "item1ToolStripMenuItem";
-            this.item1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.item1ToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.item1ToolStripMenuItem.Text = "New";
             this.item1ToolStripMenuItem.Click += new System.EventHandler(this.item1ToolStripMenuItem_Click);
             // 
             // item2ToolStripMenuItem
             // 
             this.item2ToolStripMenuItem.Name = "item2ToolStripMenuItem";
-            this.item2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.item2ToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.item2ToolStripMenuItem.Text = "Open";
             this.item2ToolStripMenuItem.Click += new System.EventHandler(this.item2ToolStripMenuItem_Click);
             // 
@@ -112,11 +117,37 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(63, 20);
             this.toolStripMenuItem2.Text = "Window";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(406, 303);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(127, 50);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Open File!";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(406, 371);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(127, 52);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Save File!";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -142,6 +173,10 @@
         private System.Windows.Forms.ToolStripMenuItem item1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem item2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
